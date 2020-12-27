@@ -570,6 +570,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     GCamGo \
-    GalleryGo
+    GalleryGo \
+    Gboard
 
 $(call inherit-product, vendor/asus/X00QD/X00QD-vendor.mk)
