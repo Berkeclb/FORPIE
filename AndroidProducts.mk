@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_X00QD.mk
+    $(LOCAL_DIR)/potato_X00QD.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_X00QD-userdebug \
-    dot_X00QD-eng
+    potato_X00QD-userdebug \
+    potato_X00QD-eng
