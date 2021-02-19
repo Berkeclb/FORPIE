@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_X00QD.mk
+    $(LOCAL_DIR)/cherish_X00QD.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_X00QD-userdebug \
-    potato_X00QD-eng
+    cherish_X00QD-userdebug \
+    cherish_X00QD-eng
