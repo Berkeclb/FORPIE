@@ -571,6 +571,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GCamGo \
     GalleryGo \
-    Gboard
+    Gboard \
+    VancedManager
 
 $(call inherit-product, vendor/asus/X00QD/X00QD-vendor.mk)
