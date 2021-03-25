@@ -123,6 +123,12 @@ USE_OPENGL_RENDERER := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# shims
+TARGET_LD_SHIM_LIBS := \
+    /system/vendor/lib/libmms_hal_vstab.so|libmms_hal_vstab_shim.so \
+    /system/lib/libui.so|libui_shim.so \
+    /system/lib64/libui.so|libui_shim.so
+
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
     ifneq ($(TARGET_BUILD_VARIANT),eng)

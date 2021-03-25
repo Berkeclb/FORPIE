@@ -207,9 +207,12 @@ PRODUCT_PACKAGES += \
     memtrack.sdm660 \
     libgenlock
 
-# DPM
+# Shims
 PRODUCT_PACKAGES += \
-    libshim_dpmframework
+    libcutils_shim \
+    libshim_wfdservice \
+    libmms_hal_vstab_shim \
+    libui_shim
 
 # DRM
 PRODUCT_PACKAGES += \
